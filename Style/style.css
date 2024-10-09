@@ -160,3 +160,27 @@ padding: 20px;
 .card1 a{
     color: black;
 }
+/* Next target */
+.nextCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.nextCardImg{
+    width: 10%;
+}
+.nextCardImg img{
+    margin: 0 auto;
+    width: 100%;
+}
+.nextCardTitle{
+    width: 90%;
+}
+.nextCardTitle p{
+    line-height: 25px;
+}
