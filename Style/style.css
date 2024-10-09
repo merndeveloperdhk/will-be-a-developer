@@ -17,7 +17,7 @@ nav{
 .banner{
     border: 2px dotted black;
     background-image: url('/assets/Hero-bg.png');
-    position: absolute;
+    /* position: absolute; */
     width: 1320px;
     height: 452px;
     top: 80px;
@@ -71,4 +71,65 @@ nav a{
 background: rgb(13, 19, 33);
 color: white;
 padding: 10px 14px;
+}
+.mainBody{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(212, 206, 206);
+    padding: 80px 97px 80px 97px;
+    
+}
+/* Common title */
+.commonTitle{
+    
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 70px;
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 48px 70px;
+}
+.cardContent{
+    width: 30%;
+}
+.cardContent h2{
+    line-height: 35px;
+}
+.cardContent p{
+    line-height: 23px;
+}
+.cardContent img{
+    width: 30%;
+}
+.cardContent button{
+    padding: 8px 10px;
+}
+/* Card container 2 */
+.cardContainer2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.863);
+    padding: 48px 70px;
+}
+.cardContent2{
+    width: 70%;
+    padding: 48px 70px;
+}
+.cardContent2 h2{
+    line-height: 35px;
+}
+.cardContent2 p{
+    line-height: 23px;
+}
+.cardContent2 img{
+    width: 30%;
+}
+.cardContent2 button{
+    padding: 8px 10px;
 }
