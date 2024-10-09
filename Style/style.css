@@ -189,7 +189,7 @@ padding: 20px;
 .support{
     width:100%;
     height: 350px;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 16px;
