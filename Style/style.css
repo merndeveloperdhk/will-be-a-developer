@@ -3,8 +3,7 @@
 .font-mono {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    /* font-weight: <weight>;
-    font-style: normal; */
+    
   }
  
 nav{
@@ -18,6 +17,8 @@ nav{
     border: 2px dotted black;
     background-image: url('/assets/Hero-bg.png');
     /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 1320px;
     height: 452px;
     top: 80px;
@@ -92,10 +93,10 @@ padding: 10px 14px;
     justify-content: space-between;
     align-items: center;
     background-color:white;
-    padding: 48px 70px;
+    padding: 20px 70px;
 }
 .cardContent{
-    width: 30%;
+    width: 40%;
 }
 .cardContent h2{
     line-height: 35px;
@@ -104,7 +105,7 @@ padding: 10px 14px;
     line-height: 23px;
 }
 .cardContent img{
-    width: 30%;
+    width: 40%;
 }
 .cardContent button{
     padding: 8px 10px;
@@ -116,7 +117,7 @@ padding: 10px 14px;
     justify-content: space-between;
     align-items: center;
     background-color:rgba(255, 255, 255, 0.863);
-    padding: 48px 70px;
+    padding: 20px 70px;
 }
 .cardContent2{
     width: 70%;
@@ -183,4 +184,53 @@ padding: 20px;
 }
 .nextCardTitle p{
     line-height: 25px;
+}
+/* need support */
+.support{
+    width:100%;
+    height: 350px;
+    background-image: url('/assets/handshake.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    
+
+}
+.supportContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputField{
+    display: flex;
+    gap: 10px;
+}
+
+.inputField input {
+   
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+footer h2{
+    font-size: 18px;
+}
+footer .socialIcon{
+    display: flex;
+    gap: 10px;
+    
 }
