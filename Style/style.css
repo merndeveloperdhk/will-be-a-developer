@@ -75,7 +75,7 @@ padding: 10px 14px;
 .mainBody{
     width: 80%;
     margin: 0 auto;
-    background-color: rgb(212, 206, 206);
+    background-color: #ffffff;
     padding: 80px 97px 80px 97px;
     
 }
@@ -85,6 +85,7 @@ padding: 10px 14px;
     text-align: center;
     margin: 0 auto;
     padding: 20px 70px;
+    line-height: 25px;
 }
 .cardContainer{
     display: flex;
@@ -132,4 +133,30 @@ padding: 10px 14px;
 }
 .cardContent2 button{
     padding: 8px 10px;
+}
+/* Current target card */
+.currentTargetContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 20px;
+}
+.card2{
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+padding: 20px;
+}
+.card3{
+    border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+padding: 20px;
+}
+
+.card1 a{
+    color: black;
 }
