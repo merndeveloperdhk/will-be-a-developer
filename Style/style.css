@@ -212,7 +212,7 @@ padding: 20px;
 }
 
 .inputField input {
-   
+   width: 400px;
     margin: auto;
     padding: 5px;
     border-radius: 5px;
