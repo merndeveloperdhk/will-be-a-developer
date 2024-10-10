@@ -1,236 +1,240 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-.font-mono {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
-    
-  }
- 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    /* position: absolute; */  
+.font-azeret {
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.banner{
-    border: 2px dotted black;
-    background-image: url('../assets/Hero-bg.png');
-    /* position: absolute; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1320px;
-    height: 452px;
-    top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
-  }
-nav h2{
-    font-size: 28px;
-   line-height: 33px;
-}
-nav a{
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 17px 24px 17px 24px;
-    font-size: 20px;
-    line-height: 23px;
-    color: black;
-    border-radius: 8px;
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.banner_content{
-    width: 998px;
-    height: 370px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.banner {
+  border: 2px dotted black;
+  background-image: url("../assets/Hero-bg.png");
+  /* position: absolute; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1320px;
+  height: 452px;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
 }
-.banner_content h1{
-    font-size: 48px;
-    line-height: 60px;
-    padding: 0 0;
-    margin: 0 0;
-  
+nav h2 {
+  font-size: 28px;
+  line-height: 33px;
 }
-.banner_content p{
-    line-height: 25px;
+nav a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 17px 24px 17px 24px;
+  font-size: 20px;
+  line-height: 23px;
+  color: black;
+  border-radius: 8px;
 }
-.banner_content img{
-    width: 70px;
-    height: 55px;
-    margin:0 auto;
+.banner_content {
+  width: 998px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-weight: bold;
 }
-.banner_content .btn{
-    display: inline-block;
-    border-radius: 8px;
-
-background: rgb(13, 19, 33);
-color: white;
-padding: 10px 14px;
+.banner_content h1 {
+  font-size: 48px;
+  line-height: 60px;
+  padding: 0 0;
+  margin: 0 0;
 }
-.mainBody{
-    width: 80%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 80px 97px 80px 97px;
-    
+.banner_content p {
+  line-height: 25px;
+}
+.banner_content img {
+  width: 70px;
+  height: 55px;
+  margin: 0 auto;
+}
+.banner_content .btn {
+  display: inline-block;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: white;
+  padding: 10px 14px;
+}
+.mainBody {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 80px 97px 80px 97px;
 }
 /* Common title */
-.commonTitle{
-    
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px 70px;
-    line-height: 25px;
+.commonTitle {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 70px;
+  line-height: 25px;
 }
-.cardContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:white;
-    padding: 20px 70px;
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(241, 235, 235, 0.815);
+  padding: 20px 70px;
 }
-.cardContent{
-    width: 40%;
+.cardContent {
+  width: 45%;
 }
-.cardContent h2{
-    line-height: 35px;
+.cardContent h2 {
+  line-height: 35px;
+  letter-spacing: 5px;
+  font-size: 24px;
 }
-.cardContent p{
-    line-height: 23px;
+.cardContent p {
+  line-height: 23px;
 }
-.cardContent img{
-    width: 40%;
+.cardContainer img {
+  width: 100%;
 }
-.cardContent button{
-    padding: 8px 10px;
+.cardContent button {
+  padding: 8px 10px;
 }
 /* Card container 2 */
-.cardContainer2{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    background-color:rgba(255, 255, 255, 0.863);
-    padding: 20px 70px;
+.cardContainer2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.863);
+  padding: 20px 70px;
 }
-.cardContent2{
-    width: 70%;
-    padding: 48px 70px;
+.cardContent2 {
+  width: 70%;
+  padding: 48px 70px;
 }
-.cardContent2 h2{
-    line-height: 35px;
+.cardContent2 h2 {
+  line-height: 35px;
 }
-.cardContent2 p{
-    line-height: 23px;
+.cardContent2 p {
+  line-height: 23px;
 }
-.cardContent2 img{
-    width: 30%;
+.cardContent2 img {
+  width: 30%;
 }
-.cardContent2 button{
-    padding: 8px 10px;
+.cardContent2 button {
+  padding: 8px 10px;
 }
 /* Current target card */
-.currentTargetContainer{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
+.currentTargetContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
-.card1{
-    border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
-    padding: 20px;
+.card1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 20px;
 }
-.card2{
-    border-radius: 16px;
+.card2 {
+  border-radius: 16px;
 
-    background: rgba(255, 223, 0, 0.05);
-padding: 20px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 20px;
 }
-.card3{
-    border-radius: 16px;
-background: rgba(0, 76, 232, 0.05);
-padding: 20px;
+.card3 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 20px;
 }
 
-.card1 a{
-    color: black;
+.card1 a {
+  color: black;
 }
 /* Next target */
-.nextCard{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-    border: 1px solid black;
-    padding: 15px 25px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+.nextCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid black;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
-.nextCardImg{
-    width: 10%;
+.nextCardImg {
+  width: 10%;
 }
-.nextCardImg img{
-    margin: 0 auto;
-    width: 100%;
+.nextCardImg img {
+  margin: 0 auto;
+  width: 100%;
 }
-.nextCardTitle{
-    width: 90%;
+.nextCardTitle {
+  width: 90%;
 }
-.nextCardTitle p{
-    line-height: 25px;
+.nextCardTitle p {
+  line-height: 25px;
 }
 /* need support */
-.support{
-    width:100%;
-    height: 350px;
-    background-image: url('../assets/handshake.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 16px;
-    display: flex;
-    
-
+.support {
+  width: 100%;
+  height: 350px;
+  background-image: url("../assets/handshake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  display: flex;
 }
-.supportContainer{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.supportContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.inputField{
-    display: flex;
-    gap: 10px;
+.inputField {
+  display: flex;
+  gap: 10px;
 }
 
 .inputField input {
-   width: 400px;
-    margin: auto;
-    padding: 5px;
-    border-radius: 5px;
-   
+  width: 400px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+.subBtn {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-family: monospace;
 }
 /* Footer */
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
-footer h2{
-    font-size: 18px;
+footer h2 {
+  font-size: 16px;
 }
-footer .socialIcon{
-    display: flex;
-    gap: 10px;
-    
+footer h2 a{
+    text-decoration: none;
+}
+footer .socialIcon {
+  display: flex;
+  gap: 10px;
+}
+footer .socialIcon img{
+    width: 36px;
+    height: 36px;
 }
