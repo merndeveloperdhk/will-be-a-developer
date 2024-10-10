@@ -60,15 +60,20 @@ nav a {
 }
 .banner_content img {
   width: 70px;
-  height: 55px;
+  height: 75px;
   margin: 0 auto;
 }
 .banner_content .btn {
   display: inline-block;
   border-radius: 8px;
   background: rgb(13, 19, 33);
-  color: white;
   padding: 10px 14px;
+  cursor: pointer;
+  color: white;
+}
+.banner_content a{
+    text-decoration: none;
+    
 }
 .mainBody {
   width: 80%;
@@ -167,7 +172,8 @@ nav a {
   border: 1px solid black;
   padding: 15px 25px;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 10px rgb(46, 46, 46);
 }
 .nextCardImg {
   width: 10%;
@@ -189,8 +195,12 @@ nav a {
   background-image: url("../assets/handshake.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   border-radius: 16px;
   display: flex;
+}
+.supportDes{
+    color: white;
 }
 .supportContainer {
   width: 80%;
